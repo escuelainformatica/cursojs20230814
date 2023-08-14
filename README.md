@@ -1,29 +1,17 @@
 # cursojs20230814
 
-This template should help get you started developing with Vue 3 in Vite.
+* axios (leer y escribir web service)
 
-## Recommended IDE Setup
+> npm i axios
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+* bootstrap
 
-## Customize configuration
+> npm install --save bootstrap
+> npm install --save @popperjs/core
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+* modificar el main.js y agregue los estilos de bootstrap (borrando los anteriores)
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
+```js
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap"
 ```
