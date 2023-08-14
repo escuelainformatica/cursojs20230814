@@ -58,7 +58,6 @@ function borrar(id) {
         </tbody>
     </table>
     <div v-else class="d-flex justify-content-center">
-            <img src="/waiting-icon-gif-1.jpg"/>
-    
+            <img src="/waiting-icon-gif-1.jpg"/>    
     </div>
 </template>

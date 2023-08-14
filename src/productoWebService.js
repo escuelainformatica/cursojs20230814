@@ -28,20 +28,9 @@ export default {
             method: 'get',
             maxBodyLength: Infinity,
             url: rutabase+'/',
-            //url: 'http://104.36.110.17/api/laravel/public/api/producto/',
             headers: {}
         };
         return axios.request(config);       
-    },
-    listar2:async() => {
-        let config = {
-            method: 'get',
-            maxBodyLength: Infinity,
-            url: rutabase+'/',
-            //url: 'http://104.36.110.17/api/laravel/public/api/producto/',
-            headers: {}
-        };
-        return await axios.request(config);  // await detiene la ejecucion, para ello la funcion tiene que ser async
     },
     insertar:(producto) => {
         let data = JSON.stringify(producto.value);
