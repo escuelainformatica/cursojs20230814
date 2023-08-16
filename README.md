@@ -6,10 +6,10 @@
 
 * bootstrap
 
-> npm install --save bootstrap
+> npm install --save bootstrap   
 > npm install --save @popperjs/core
 
-* modificar el main.js y agregue los estilos de bootstrap (borrando los anteriores)
+* modificar el main.js (comente el estilo anterior) y agregue los estilos de bootstrap (borrando los anteriores)
 
 ```js
 import "bootstrap/dist/css/bootstrap.min.css"

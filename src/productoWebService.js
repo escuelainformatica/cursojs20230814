@@ -1,5 +1,8 @@
 import axios from 'axios';
-const rutabase='http://127.0.0.1:8000/api/producto';
+//const rutabase='http://topazlabs.com:8000/api/producto';
+//const rutabase='http://localhost/laravel/api/producto';
+//const rutabase='http://localhost/laravel/public/api/producto';
+const rutabase='http://104.36.110.17/api/laravel/public/api/producto';
 export default {
     leer:(idProducto) => {
         let configLeer = {
@@ -27,7 +30,7 @@ export default {
         let config = {
             method: 'get',
             maxBodyLength: Infinity,
-            url: rutabase+'/',
+            url: rutabase,
             headers: {}
         };
         return axios.request(config);       
@@ -54,6 +57,5 @@ export default {
           };
         return axios.request(config);    
     }
-
 }
 
